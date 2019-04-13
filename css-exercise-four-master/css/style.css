@@ -1,0 +1,77 @@
+
+* { Box-sizing: Border-box }
+body {
+  background-color: #dadada;
+  font-size: 10px;
+}
+
+
+/* Phones */
+h1{
+  font-size: 24px;
+}
+
+.preview{
+  height: 500px;
+}
+.preview img{
+  max-width: 100%;
+}
+
+
+/* End phones */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablets */
+@media screen and (min-width : 575px){
+
+
+  h1{
+    font-size: 36px;
+  }
+
+  .preview{
+      margin: 1%;
+      width: 48%;
+      float: left;
+      height: 400px;
+  }
+
+}/* End tablet */
+
+
+
+
+
+
+
+
+
+
+
+/* Laptop */
+@media screen
+and (min-width : 991px) {
+
+  .preview{
+      margin: 1%;
+      width: 23%;
+      float: left;
+  }
+
+  h1{
+    font-size: 48px;
+  }
+
+
+}/* End laptop */

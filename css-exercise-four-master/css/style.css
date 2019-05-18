@@ -7,17 +7,42 @@ body {
 
 
 /* Phones */
+.siteHeader{
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  font-size: 16px;
+}
 h1{
   font-size: 24px;
 }
 
-.preview{
-  height: 500px;
-}
-.preview img{
-  max-width: 100%;
+
+
+.baku{
+  background: url("../images/baku.jpg") center center no-repeat;
 }
 
+.london{
+  background: url("../images/london.png") center center no-repeat;
+}
+
+.madrid{
+  background: url("../images/madrid.jpg") center center no-repeat;
+}
+
+.rome{
+  background: url("../images/rome.jpg") center center no-repeat;
+}
+
+.preview{
+  height: 500px;
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
 /* End phones */
 
@@ -45,6 +70,7 @@ h1{
       width: 48%;
       float: left;
       height: 400px;
+      background-size: cover;
   }
 
 }/* End tablet */
@@ -67,6 +93,7 @@ and (min-width : 991px) {
       margin: 1%;
       width: 23%;
       float: left;
+      background-size: cover;
   }
 
   h1{
